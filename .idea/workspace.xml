@@ -33,6 +33,34 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TestPetstatus" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;org.petstore.api.test.pets.TestPetstatus&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TestPetstatus" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,6 +76,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="345" y="141" width="814" height="776" key="#Intentions" timestamp="1588611682491">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="345" y="141" width="814" height="776" key="#Intentions/0.0.1504.963@0.0.1504.963" timestamp="1588611682491" />
     <state x="345" y="141" key="#Project_Structure" timestamp="1588515083192">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -56,5 +88,60 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="487" y="172" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1504.963@0.0.1504.963" timestamp="1588515106609" />
+    <state x="508" y="186" key="#xdebugger.evaluate" timestamp="1588617053566">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="508" y="186" key="#xdebugger.evaluate/0.0.1504.963@0.0.1504.963" timestamp="1588617053566" />
+    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1588515779895">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1588515779895" />
+    <state width="1461" height="317" key="GridCell.Tab.0.bottom" timestamp="1588617074375">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1588617074375" />
+    <state width="1461" height="317" key="GridCell.Tab.0.center" timestamp="1588617074375">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1588617074375" />
+    <state width="1461" height="317" key="GridCell.Tab.0.left" timestamp="1588617074375">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1588617074375" />
+    <state width="1461" height="317" key="GridCell.Tab.0.right" timestamp="1588617074375">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1588617074375" />
+    <state width="1461" height="317" key="GridCell.Tab.1.bottom" timestamp="1588617074376">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1588617074376" />
+    <state width="1461" height="317" key="GridCell.Tab.1.center" timestamp="1588617074375">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1588617074375" />
+    <state width="1461" height="317" key="GridCell.Tab.1.left" timestamp="1588617074375">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1588617074375" />
+    <state width="1461" height="317" key="GridCell.Tab.1.right" timestamp="1588617074376">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1588617074376" />
+    <state x="254" y="125" key="SettingsEditor" timestamp="1588515855027">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="254" y="125" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1588515855027" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/petstore/api/test/pets/TestPetstatus.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

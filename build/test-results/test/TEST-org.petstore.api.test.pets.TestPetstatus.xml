@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.petstore.api.test.pets.TestPetstatus" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-04T18:31:15" hostname="DESKTOP-K04019P" time="2.366">
+  <properties/>
+  <testcase name="testPetid" classname="org.petstore.api.test.pets.TestPetstatus" time="2.366"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
