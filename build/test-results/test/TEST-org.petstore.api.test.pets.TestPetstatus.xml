@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.petstore.api.test.pets.TestPetstatus" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-04T18:31:15" hostname="DESKTOP-K04019P" time="2.366">
+<testsuite name="org.petstore.api.test.pets.TestPetstatus" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-04T22:53:29" hostname="DESKTOP-K04019P" time="2.452">
   <properties/>
-  <testcase name="testPetid" classname="org.petstore.api.test.pets.TestPetstatus" time="2.366"/>
+  <testcase name="testPetid" classname="org.petstore.api.test.pets.TestPetstatus" time="2.204"/>
+  <testcase name="testPetuploadimage" classname="org.petstore.api.test.pets.TestPetstatus" time="0.247"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

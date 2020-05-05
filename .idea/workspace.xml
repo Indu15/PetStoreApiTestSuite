@@ -30,12 +30,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Indu Project\PetStoreApiTestSuite\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.TestPetstatus">
     <configuration name="TestPetstatus" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -56,9 +62,72 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TestPetstatus.testPetid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;org.petstore.api.test.pets.TestPetstatus.testPetid&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPetstatus.testPetuploadimage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;org.petstore.api.test.pets.TestPetstatus.testPetuploadimage&quot; --debug" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPetupload" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;org.petstore.api.test.pets.TestPetupload&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.TestPetstatus" />
+        <item itemvalue="Gradle.TestPetstatus.testPetuploadimage" />
+        <item itemvalue="Gradle.TestPetstatus.testPetid" />
+        <item itemvalue="Gradle.TestPetupload" />
       </list>
     </recent_temporary>
   </component>
@@ -96,22 +165,22 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1588515779895" />
-    <state width="1461" height="317" key="GridCell.Tab.0.bottom" timestamp="1588617074375">
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom" timestamp="1588632808637">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="317" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1588617074375" />
-    <state width="1461" height="317" key="GridCell.Tab.0.center" timestamp="1588617074375">
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1588632808637" />
+    <state width="1461" height="256" key="GridCell.Tab.0.center" timestamp="1588632808637">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="317" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1588617074375" />
-    <state width="1461" height="317" key="GridCell.Tab.0.left" timestamp="1588617074375">
+    <state width="1461" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1588632808637" />
+    <state width="1461" height="256" key="GridCell.Tab.0.left" timestamp="1588632808636">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="317" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1588617074375" />
-    <state width="1461" height="317" key="GridCell.Tab.0.right" timestamp="1588617074375">
+    <state width="1461" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1588632808636" />
+    <state width="1461" height="256" key="GridCell.Tab.0.right" timestamp="1588632808637">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="317" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1588617074375" />
+    <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1588632808637" />
     <state width="1461" height="317" key="GridCell.Tab.1.bottom" timestamp="1588617074376">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -132,14 +201,21 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="254" y="125" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1588515855027" />
+    <state x="449" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1588624186847">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="449" y="307" key="com.intellij.ide.util.TipDialog/0.0.1504.963@0.0.1504.963" timestamp="1588624186847" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/org/petstore/api/test/pets/TestPetstatus.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="2" />
+          <line>28</line>
+          <properties class="org.petstore.api.test.pets.TestPetstatus" method="testPetuploadimage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
