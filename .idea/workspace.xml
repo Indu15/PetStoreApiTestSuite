@@ -165,22 +165,22 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1588515779895" />
-    <state width="1461" height="256" key="GridCell.Tab.0.bottom" timestamp="1588632808637">
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom" timestamp="1588774526779">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1588632808637" />
-    <state width="1461" height="256" key="GridCell.Tab.0.center" timestamp="1588632808637">
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1588774526779" />
+    <state width="1461" height="256" key="GridCell.Tab.0.center" timestamp="1588774526778">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1588632808637" />
-    <state width="1461" height="256" key="GridCell.Tab.0.left" timestamp="1588632808636">
+    <state width="1461" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1588774526778" />
+    <state width="1461" height="256" key="GridCell.Tab.0.left" timestamp="1588774526778">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1588632808636" />
-    <state width="1461" height="256" key="GridCell.Tab.0.right" timestamp="1588632808637">
+    <state width="1461" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1588774526778" />
+    <state width="1461" height="256" key="GridCell.Tab.0.right" timestamp="1588774526779">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1588632808637" />
+    <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1588774526779" />
     <state width="1461" height="317" key="GridCell.Tab.1.bottom" timestamp="1588617074376">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -205,19 +205,5 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="449" y="307" key="com.intellij.ide.util.TipDialog/0.0.1504.963@0.0.1504.963" timestamp="1588624186847" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/org/petstore/api/test/pets/TestPetstatus.java</url>
-          <line>28</line>
-          <properties class="org.petstore.api.test.pets.TestPetstatus" method="testPetuploadimage">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
