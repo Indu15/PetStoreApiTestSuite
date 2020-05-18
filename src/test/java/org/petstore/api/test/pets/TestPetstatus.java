@@ -1,6 +1,9 @@
 package org.petstore.api.test.pets;
 
 
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import org.junit.Assert;
 import org.junit.Test;
 import org.petstore.api.test.util.PetStoreApiTestConstants;
 
@@ -24,7 +27,7 @@ public class TestPetstatus implements PetStoreApiTestConstants {
 
     }
 
-    @Test
+   /* @Test
     public void testPetuploadimage() {
         given()
                 .pathParam("petId","1143")
@@ -36,8 +39,17 @@ public class TestPetstatus implements PetStoreApiTestConstants {
                 .then()
                 .statusCode(200)
                 .body("type",notNullValue());
-               // .body("message",equalTo());
-    }
+                .body("message",equalTo());
+    } */
+@Test
+    public void sendAGetRequestAndStoreResponse(){
+              Response response=given()
+              .queryParam("status","sold")
+                      .when()
+                      .get(Base_URL + "/pet/findByStatus");
+    Assert.assertEquals(response.getStatusCode(),200);
+
+}
 }
 
 
