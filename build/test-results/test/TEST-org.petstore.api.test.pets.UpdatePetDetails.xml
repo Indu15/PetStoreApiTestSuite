@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.petstore.api.test.pets.UpdatePetDetails" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-25T13:11:49" hostname="DESKTOP-K04019P" time="1.53">
+  <properties/>
+  <testcase name="FindByPetID" classname="org.petstore.api.test.pets.UpdatePetDetails" time="1.53"/>
+  <system-out><![CDATA[{
+    "id": 1234,
+    "category": {
+        "id": 10,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

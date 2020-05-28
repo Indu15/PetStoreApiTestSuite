@@ -27,7 +27,7 @@ public class TestPetstatus implements PetStoreApiTestConstants {
 
     }
 
-   /* @Test
+    /*@Test
     public void testPetuploadimage() {
         given()
                 .pathParam("petId","1143")
@@ -40,7 +40,7 @@ public class TestPetstatus implements PetStoreApiTestConstants {
                 .statusCode(200)
                 .body("type",notNullValue());
                 .body("message",equalTo());
-    } */
+    }*/
 @Test
     public void sendAGetRequestAndStoreResponse(){
               Response response=given()
