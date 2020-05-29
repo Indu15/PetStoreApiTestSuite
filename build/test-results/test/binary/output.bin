@@ -18,3 +18,8 @@
     ],
     "status": "available"
 }
+{
+    "code": 1,
+    "type": "error",
+    "message": "Pet not found"
+}

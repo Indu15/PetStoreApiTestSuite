@@ -16,6 +16,7 @@ public class UpdatePetDetails implements PetStoreApiTestConstants {
 
     public void FindByPetID() {
         Response response = invokeGet(); /* Calling the method invokeget(); */
+
         response.body().prettyPrint();
         assertEquals(response.getStatusCode(),200);
         assertEquals(Optional.of(response.getBody().path("id")), Optional.of(1234));
@@ -28,6 +29,24 @@ public class UpdatePetDetails implements PetStoreApiTestConstants {
         assertEquals(Optional.of(response.getBody().path("status")),Optional.of("available"));
         Assert.assertEquals(response.header("Content-Type") /* actual value */, "application/json" /* expected value */);
     }
+    @Test
+    public   void checkInvalidInput() {
+
+         Response response = given().when() .get(Base_URL + "/pet/0000");
+                 response.body().prettyPrint();
+                 assertEquals(response.getStatusCode(),404);
+                 assertEquals(Optional.of(response.getBody().path("code")), Optional.of(1));
+        assertEquals(Optional.of(response.getBody().path("type")), Optional.of("error"));
+        assertEquals(Optional.of(response.getBody().path("message")), Optional.of("Pet not found"));
+        Assert.assertEquals(response.header("Content-Type"), "application/json");
+
+
+
+
+
+    }
+
+
     private Response invokeGet()  {
         Response response = given().when().get(Base_URL + "/pet/1234");
         return response;
